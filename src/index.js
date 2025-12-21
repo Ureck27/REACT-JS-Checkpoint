@@ -1,13 +1,6 @@
-// Import React library
 import React from 'react';
-
-// Import ReactDOM to render our app in the browser
 import ReactDOM from 'react-dom/client';
-
-// Import our main App component
 import App from './App';
-
-// Import reportWebVitals (for measuring performance - optional)
 import reportWebVitals from './reportWebVitals';
 
 // Get the root element from HTML file (usually in public/index.html)
@@ -22,5 +15,5 @@ root.render(
   </React.StrictMode>
 );
 
-// This helps measure performance (optional - you can ignore this for now)
+// This helps measure performance 
 reportWebVitals();

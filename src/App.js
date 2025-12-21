@@ -1,16 +1,15 @@
-// Step 1: Import React library - this is needed for all React components
 import React from 'react';
 
-// Step 2: Import the components we need from react-bootstrap library
+//  Import the components we need from react-bootstrap library
 // We are importing: Navbar, Container, Nav, Card, Button
 import { Navbar, Container, Nav, Card, Button } from 'react-bootstrap';
 
-// Step 3: Import Bootstrap CSS file to make everything look nice
+// Import Bootstrap CSS file to make everything look nice
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-// Step 4: Create our App component (this is a function component)
+// Create our App component (this is a function component)
 function App() {
-  // Step 5: Return JSX - this is what will be displayed on the screen
+  // Return JSX - this is what will be displayed on the screen
   return (
     // React Fragment - this is like an invisible wrapper, it doesn't add extra HTML tags
     <>
@@ -105,5 +104,5 @@ function App() {
   );
 }
 
-// Step 6: Export the App component so we can use it in other files (like index.js)
+// Export the App component so we can use it in other files (like index.js)
 export default App;
